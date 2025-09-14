@@ -1,81 +1,74 @@
-# سياسة الخصوصية لتطبيق «مصفوفة Pay»
 
-*آخر تحديث: 30-08-2024*
+# Privacy Policy for **Msfofa Pay**
 
-نحن في **مصفوفة Pay** نُقدّر خصوصيتك ونلتزم بحماية بياناتك الشخصية. توضح هذه الوثيقة أنواع المعلومات التي قد نجمعها عند استخدامك للتطبيق، وكيفية استخدامنا لها، وحقوقك تجاه هذه المعلومات.
+*Last Updated: 30-08-2024*
 
----
-
-## 1. المعلومات التي نجمعها
-
-| الفئة | التفاصيل |
-| :--- | :--- |
-| **معلومات الجهاز** | نوع الجهاز، نظام التشغيل، معرفات الجهاز (Device ID) |
-| **معلومات الاستخدام** | سجلات الأخطاء، إحصاءات الأداء، معرّفات الجلسة |
-| **معلومات الموقع** | موقع تقريبي ودقيق (بعد الحصول على إذن صريح) |
-| **معلومات الاتصال** | حالة الشبكة، عنوان IP |
-| **بيانات الدفع** | تفاصيل المعاملة (المبلغ، العملة، رقم الإيصال) *دون* تخزين بيانات البطاقة الكاملة |
-
-> **تنويه:** لا نقوم بجمع أو تخزين أرقام بطاقات الدفع الكاملة أو الرموز السرّية (CVV).
+At **Msfofa Pay**, we value your privacy and are committed to protecting your personal data. This document explains the types of information we may collect when you use the app, how we use it, and your rights regarding this information.
 
 ---
 
-## 2. كيفية استخدام المعلومات
+## 1. Information We Collect
 
-1. معالجة عمليات الدفع وإتمامها بشكل آمن.
-2. التحقق من هوية الجهاز ومكافحة الاحتيال.
-3. تحسين أداء التطبيق وحل المشكلات التقنية.
-4. تزويدك بإشعارات فورية حول حالة الدفعات والعمليات.
-5. الامتثال للالتزامات القانونية والتنظيمية (مثل متطلبات مكافحة غسل الأموال).
+| Category                 | Details                                                                                 |
+| :----------------------- | :-------------------------------------------------------------------------------------- |
+| **Device Information**   | Device type, operating system, device identifiers (Device ID)                           |
+| **Usage Information**    | Error logs, performance statistics, session identifiers                                 |
+| **Location Information** | Approximate and precise location (after obtaining explicit permission)                  |
+| **Network Information**  | Network status, IP address                                                              |
+| **Payment Data**         | Transaction details (amount, currency, receipt number) *without* storing full card data |
 
----
-
-## 3. الأذونات المطلوبة ولماذا نحتاجها
-
-| إذن Android | الغرض والاستخدام |
-| :--- | :--- |
-| `INTERNET`, `ACCESS_NETWORK_STATE` | الاتصال بخوادم الدفع والتحقق من حالة الشبكة لتجنّب فشل المعاملات |
-| `ACCESS_FINE_LOCATION`, `ACCESS_COARSE_LOCATION`, `ACCESS_BACKGROUND_LOCATION` | التحقق الجغرافي، كشف الاحتيال، وربط الأجهزة الطرفية القريبة (بلوتوث) |
-| `BLUETOOTH*` (جميع صلاحيات البلوتوث) | الاقتران مع طابعات الإيصالات أو قارئات البطاقات عبر البلوتوث |
-| `READ_PHONE_STATE` | إنشاء معرف فريد للجهاز وربط الحسابات لمنع الاستخدام غير المصرَّح به |
-| `NFC` | تمكين عمليات الدفع اللاتلامسية (NFC) |
-| `MODIFY_AUDIO_SETTINGS` | تشغيل أصوات التأكيد بعد نجاح العملية لتحسين تجربة المستخدم |
-
-> لا تُستخدم هذه الأذونات للوصول إلى بياناتك الشخصية خارج نطاق الوظائف المحددة أعلاه.
+> **Note:** We do not collect or store full payment card numbers or CVV codes.
 
 ---
 
-## 4. مشاركة البيانات مع جهات خارجية
+## 2. How We Use the Information
 
-نحن **لا نبيع** بياناتك الشخصية ولا نشاركها إلا في الحالات التالية:
-
-* **موفّرو خدمات الدفع الموثوقون** لإتمام المعاملات المالية.
-* **الامتثال القانوني:** إذا طُلب منا ذلك بموجب القانون أو استجابة لإجراءات قانونية.
-* **منع الاحتيال وحماية الحقوق:** عندما يكون الكشف ضروريًا للتحقيق في أنشطة احتيالية أو حفظ أمن مستخدمينا.
-
----
-
-## 5. أمن المعلومات
-
-نستخدم بروتوكولات تشفير متقدمة ومعايير **PCI-DSS Level 1** لحماية البيانات أثناء النقل والتخزين. يتم الوصول إلى المعلومات الحساسة على أساس «الحد الأدنى من الامتيازات» ويُراجع الوصول دوريًا.
+1. To securely process and complete payment transactions.
+2. To verify device identity and prevent fraud.
+3. To improve app performance and resolve technical issues.
+4. To provide you with instant notifications about payments and transaction status.
+5. To comply with legal and regulatory obligations (e.g., anti-money laundering requirements).
 
 ---
 
-## 6. حقوق المستخدم
+## 3. Permissions We Request and Why
 
-* يمكنك طلب الوصول إلى بياناتك أو تصحيحها أو حذفها عبر التواصل معنا من خلال البريد الإلكتروني أدناه.
-* يمكنك إلغاء أذونات الموقع أو البلوتوث من إعدادات الجهاز؛ علمًا بأن بعض الميزات قد تتوقف عن العمل.
+| Android Permission                                                             | Purpose & Usage                                                                          |
+| :----------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| `INTERNET`, `ACCESS_NETWORK_STATE`                                             | Connect to payment servers and check network status to prevent failed transactions       |
+| `ACCESS_FINE_LOCATION`, `ACCESS_COARSE_LOCATION`, `ACCESS_BACKGROUND_LOCATION` | Geolocation verification, fraud detection, and connecting nearby peripherals (Bluetooth) |
+| `BLUETOOTH*` (all Bluetooth permissions)                                       | Pairing with receipt printers or card readers via Bluetooth                              |
+| `READ_PHONE_STATE`                                                             | Generate a unique device identifier and link accounts to prevent unauthorized use        |
+| `NFC`                                                                          | Enable contactless (NFC) payments                                                        |
+| `MODIFY_AUDIO_SETTINGS`                                                        | Play confirmation sounds after successful transactions to enhance user experience        |
+
+> These permissions are not used to access your personal data outside the functions described above.
+
+---
+
+## 4. Sharing Data with Third Parties
+
+We **do not sell** your personal data. We only share it in the following cases:
+
+* **Trusted payment service providers** to process financial transactions.
+* **Legal compliance:** When required by law or in response to legal proceedings.
+* **Fraud prevention and protection of rights:** When disclosure is necessary to investigate fraudulent activity or to safeguard user security.
 
 ---
 
-## 7. الاحتفاظ بالبيانات
+## 5. Information Security
 
-نحتفظ ببيانات المعاملات وفق المتطلبات القانونية والضريبية السارية، ثم نقوم بحذفها أو إخفاء هويتها عند انتهاء الغرض منها.
+We use advanced encryption protocols and **PCI-DSS Level 1** standards to protect data during transmission and storage. Access to sensitive data is based on the principle of "least privilege" and is reviewed periodically.
+
+---
+
+## 6. User Rights
+
+* You may request access to, correction of, or deletion of your data by contacting us via the email provided below.
+* You may disable location or Bluetooth permissions from your device settings; however, certain features may no longer function.
 
 ---
 
-## 8. التغييرات على سياسة الخصوصية
+## 7. Data Retention
 
-قد نقوم بتحديث هذه السياسة دوريًا. سيتم إخطارك بأي تغييرات جوهرية عبر إشعار داخل التطبيق أو تحديث في هذه الصفحة.
-
----
+We retain transaction data in compliance with applicable legal and tax requirements, after which it is deleted or anonymized once its purpose has been fulfilled.
