@@ -1,5 +1,5 @@
 
-# Privacy Policy for **Msfofa Pay**
+# Privacy Policy for **Msfofh Pay**
 
 *Last Updated: 30-08-2024*
 
